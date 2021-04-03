@@ -17,7 +17,7 @@ p {
     font-size: 16px;
     margin-bottom: 20px;
 }
-
+/* Styles and inserts the picture for the nav */
 .hero {
     height: 800px;
     width: 100%;
@@ -38,9 +38,10 @@ p {
 }
 /* Starts header CSS */
 .header {
+    display: center;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: hsl(200, 49%, 33%);
     color: #ffffff;
 }
 
@@ -53,7 +54,7 @@ p {
     color: #868b81;
 }
 
-.header div {
+.header ul{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -61,7 +62,7 @@ p {
     font-size: 20px;
 }
 
-.header div ul li {
+.header ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -74,7 +75,7 @@ p {
 }
 
   /* Sets style for Search Engine Optimization, Online Reputation Management, AND Social Media Marketing boxes */
-.content div {
+.content article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;

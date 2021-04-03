@@ -15,7 +15,7 @@ This is my first homework assignment in the coding bootcamp.
 
 ## Project Notes
 
-For this assignment I made changes to the provided html and css files, and made a read me for my repository. The changes made to the HTML include adding a website title, adding alt attributes to every image without, adding an id to the Search Engine Optimization to connect the link, changing the footer to be outside the body for a better flow, and erasing classes that were unnecessary for the code. The changes made to the CSS include consolidating benefit categories for h3 and img, consolidating the content categories for img and div, alligned the benefits text center, moved around the content and benefit classes so they are grouped together, created an id section for footer, added CSS comments. 
+For this assignment I made changes to the provided html and css files, and made a read me for my repository. The changes made to the HTML include adding a website title, adding alt attributes to every image without, adding an id to the Search Engine Optimization to connect the link, changing the footer to be outside the body for a better flow, changing the divs to section, article, footer, etc , and erasing classes that were unnecessary for the code. The changes made to the CSS include consolidating benefit categories for h3 and img, consolidating the content categories for img and articles, alligned the benefits text center, moved around the content and benefit classes so they are grouped together, created an id section for footer, added CSS comments. 
 
 ## Preview 
 
