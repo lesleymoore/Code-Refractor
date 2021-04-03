@@ -37,7 +37,7 @@ p {
     margin-left: 25px;
 }
 /* Starts header CSS */
-.header {
+header {
     display: center;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,16 +45,16 @@ p {
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 /* Changes color of "seo" in the heading */
-.header h1 .seo {
+header h1 .seo {
     color: #868b81;
 }
 
-.header ul{
+header ul{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -62,7 +62,7 @@ p {
     font-size: 20px;
 }
 
-.header ul li {
+header ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -92,7 +92,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* Starts Benefit CSS */
+/* Starts Benefits CSS */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,28 +104,28 @@ p {
     background-color: #2589bd;
     margin-bottom: 32px;
     color: #ffffff;
-    /* Aligns the text center for each description in the benefit area*/
+    /* Aligns the text center for each description in the benefit area */
     text-align: center;
 }
-/* Sets style for Cost Management, Brand Awareness, and Lead Generation headers*/
+/* Sets style for Cost Management, Brand Awareness, and Lead Generation headers */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* Sets style for each image in the benefit box*/
+/* Sets style for each image in the benefit box */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* Id specific to footer */
-#footer {
+/* Starts footer CSS */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-#footer h2 {
+footer h2 {
     font-size: 20px;
 }
