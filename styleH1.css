@@ -12,12 +12,12 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Styles font for all paragraphs */
 p {
     font-size: 16px;
     margin-bottom: 20px;
 }
-/* Styles and inserts the picture for the nav */
+/* Styles and inserts the picture for the nav background image */
 .hero {
     height: 800px;
     width: 100%;
