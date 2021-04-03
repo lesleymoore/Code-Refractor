@@ -8,35 +8,6 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #868b81;
-}
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -65,13 +36,44 @@ p {
     float: right;
     margin-left: 25px;
 }
+/* Starts header CSS */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
 
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Changes color of "seo" in the heading */
+.header h1 .seo {
+    color: #868b81;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Starts all content CSS */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+  /* Sets style for Search Engine Optimization, Online Reputation Management, AND Social Media Marketing boxes */
 .content div {
     margin-bottom: 20px;
     padding: 50px;
@@ -89,7 +91,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Starts Benefit CSS */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,20 +103,21 @@ p {
     background-color: #2589bd;
     margin-bottom: 32px;
     color: #ffffff;
+    /* Aligns the text center for each description in the benefit area*/
     text-align: center;
 }
-
+/* Sets style for Cost Management, Brand Awareness, and Lead Generation headers*/
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Sets style for each image in the benefit box*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Id specific to footer */
 #footer {
     padding: 30px;
     clear: both;
